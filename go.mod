@@ -74,6 +74,10 @@ require (
 	k8s.io/klog v1.0.0
 )
 
+replace (
+	github.com/cortexproject/cortex => github.com/afritzler/cortex v0.0.0-20250205133143-db9bcd6ef58c
+)
+
 replace github.com/hpcloud/tail => github.com/grafana/tail v0.0.0-20201004203643-7aa4e4a91f03
 
 replace github.com/Azure/azure-sdk-for-go => github.com/Azure/azure-sdk-for-go v36.2.0+incompatible
