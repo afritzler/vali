@@ -838,7 +838,8 @@ github.com/sean-/seed
 # github.com/segmentio/fasthash v1.0.2
 ## explicit
 github.com/segmentio/fasthash/fnv1a
-# github.com/sercand/kuberesolver v2.1.0+incompatible
+# github.com/sercand/kuberesolver v2.4.0+incompatible
+## explicit
 github.com/sercand/kuberesolver
 # github.com/shurcooL/httpfs v0.0.0-20190707220628-8d4bc4ba7749
 ## explicit

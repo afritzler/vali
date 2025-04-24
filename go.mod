@@ -57,6 +57,7 @@ require (
 	github.com/prometheus/common v0.15.0
 	github.com/prometheus/prometheus v1.8.2-0.20210124145330-b5dfa2414b9e
 	github.com/segmentio/fasthash v1.0.2
+	github.com/sercand/kuberesolver v2.4.0+incompatible // indirect
 	github.com/shurcooL/httpfs v0.0.0-20190707220628-8d4bc4ba7749
 	github.com/shurcooL/vfsgen v0.0.0-20200824052919-0d455de96546
 	github.com/spf13/afero v1.2.2
