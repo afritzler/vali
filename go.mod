@@ -5,7 +5,9 @@ go 1.15
 require (
 	cloud.google.com/go/pubsub v1.3.1
 	github.com/NYTimes/gziphandler v1.1.1
+	github.com/alicebob/gopher-json v0.0.0-20230218143504-906a9b012302 // indirect
 	github.com/aws/aws-lambda-go v1.17.0
+	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
 	github.com/bmatcuk/doublestar v1.2.2
 	github.com/c2h5oh/datasize v0.0.0-20200112174442-28bbd4740fee
 	github.com/cespare/xxhash/v2 v2.1.1
@@ -26,6 +28,7 @@ require (
 	github.com/gofrs/flock v0.7.1 // indirect
 	github.com/gogo/protobuf v1.3.1 // remember to update vali-build-image/Dockerfile too
 	github.com/golang/snappy v0.0.3-0.20201103224600-674baa8c7fc3
+	github.com/gomodule/redigo v1.9.2 // indirect
 	github.com/gorilla/mux v1.7.3
 	github.com/gorilla/websocket v1.4.2
 	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0
@@ -40,6 +43,8 @@ require (
 	github.com/joncrlsn/dque v2.2.1-0.20200515025108-956d14155fa2+incompatible
 	github.com/json-iterator/go v1.1.12
 	github.com/klauspost/compress v1.11.3
+	github.com/lann/builder v0.0.0-20180802200727-47ae307949d0 // indirect
+	github.com/lann/ps v0.0.0-20150810152359-62de8c46ede0 // indirect
 	github.com/mitchellh/mapstructure v1.3.3
 	github.com/modern-go/reflect2 v1.0.2
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f
@@ -55,7 +60,7 @@ require (
 	github.com/shurcooL/httpfs v0.0.0-20190707220628-8d4bc4ba7749
 	github.com/shurcooL/vfsgen v0.0.0-20200824052919-0d455de96546
 	github.com/spf13/afero v1.2.2
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.8.4
 	github.com/tonistiigi/fifo v0.0.0-20190226154929-a9fb20d87448
 	github.com/uber/jaeger-client-go v2.25.0+incompatible
 	github.com/ugorji/go v1.1.7 // indirect
@@ -70,13 +75,11 @@ require (
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/fsnotify.v1 v1.4.7
 	gopkg.in/yaml.v2 v2.4.0
-	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
+	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/klog v1.0.0
 )
 
-replace (
-	github.com/cortexproject/cortex => github.com/afritzler/cortex v0.0.0-20250205133143-db9bcd6ef58c
-)
+replace github.com/cortexproject/cortex => github.com/afritzler/cortex v0.0.0-20250205134704-4000c188086f
 
 replace github.com/hpcloud/tail => github.com/grafana/tail v0.0.0-20201004203643-7aa4e4a91f03
 
